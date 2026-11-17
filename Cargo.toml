@@ -1,0 +1,16 @@
+[package]
+name = "tinycrypt-safe-rust"
+version = "0.2.0"
+edition = "2021"
+authors = ["CobolIQ DecodeIQ Team <team@coboliq.com>"]
+description = "100% Safe Rust (#![forbid(unsafe_code)]) and no_std port of Intel's TinyCrypt cryptographic library. Synthesized by DecodeIQ CodeTruth Engine."
+license = "BSD-3-Clause"
+repository = "https://github.com/coboliqcom/tinycrypt-safe-rust"
+readme = "README.md"
+keywords = ["tinycrypt", "crypto", "no_std", "aes", "sha256"]
+categories = ["cryptography", "no-std", "embedded"]
+
+[dependencies]
+
+[dev-dependencies]
+hex = "0.4"
